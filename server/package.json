@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.47.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

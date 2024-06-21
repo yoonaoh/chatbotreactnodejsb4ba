@@ -1,0 +1,45 @@
+.form-check.form-switch{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.container.chat-container {
+  max-width: 800px;
+  margin: 20px;
+  height: calc(100vh - 90px);
+  position: relative;
+  border: 1px solid grey;
+  padding: 0px;
+}
+
+.chat-inner-container{
+  padding: 20px;
+  height: calc(100% - 60px);
+  border-bottom: 1px solid grey;
+  margin: 0px;
+  overflow-y: auto;
+}
+
+.person-icon{
+  margin-top: 5px;
+}
+
+.spinner-grow {
+  margin-top: 32px;
+}
+
+.container.input-row{
+  position: absolute;
+  margin-right: 10px;
+  bottom: 12px;
+  right: 22px;
+}
+
+pre{
+  text-wrap: wrap;
+}
+
+.card-body{
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+}
